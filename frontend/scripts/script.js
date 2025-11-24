@@ -18,7 +18,7 @@ encryptForm.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "https://cipher-security.onrender.com/encrypt",
+      "https://cypher-security.onrender.com/encrypt",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -53,7 +53,7 @@ decryptForm.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "https://cipher-security.onrender.com/decrypt",
+      "https://cypher-security.onrender.com/decrypt",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
