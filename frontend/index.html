@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyherSecurity - Criptografias</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Cypher<span>Security</span></h1>
+      <nav class="menu">
+        <ul class="menu-list">
+          <a href="https://github.com/josevictorr7" target="_blank"
+            ><li>GitHub</li></a
+          >
+          <a href="#navigation-footer"><li>Team Members</li></a>
+          <a href="#"><li>Project in ABNT2</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="text-area">
+        <h2>Cypher<span>Security</span> - Criptografador</h2>
+        <p>
+          Projeto realizado para fins acadêmicos, utilizando o método de
+          criptografia simétrica <span>AES-128.</span><br />Com o objetivo de
+          demonstrar a aplicação técnica de métodos para a
+          <span>segurança da informação</span> digital.
+        </p>
+      </section>
+      <section class="main-container">
+        <article class="container-encrypt">
+          <form action="#" method="post" class="form-encrypt">
+            <div class="input-encrypt">
+              <label for="iemessage">Mensagem:</label>
+              <input
+                type="text"
+                name="emessage"
+                id="iemessage"
+                placeholder="Digite uma mensagem para ser criptografada"
+              />
+            </div>
+            <div class="input-key-encrypt">
+              <label for="iekey">Chave:</label>
+              <input
+                type="text"
+                name="ekey"
+                id="iekey"
+                placeholder="Coloque sua chave"
+              />
+            </div>
+            <button type="submit" id="iencrypt">Criptografar</button>
+          </form>
+        </article>
+        <aside class="container-decrypt">
+          <form action="#" method="post" class="form-decrypt">
+            <div class="input-decrypt">
+              <label for="idmessage">Código</label>
+              <input
+                type="text"
+                name="dmessage"
+                id="idmessage"
+                placeholder="Digite um código para ser descriptografado"
+              />
+            </div>
+            <div class="input-key-decrypt">
+              <label for="idkey">Chave:</label>
+              <input
+                type="text"
+                name="dkey"
+                id="idkey"
+                placeholder="Coloque sua chave"
+              />
+            </div>
+            <button type="submit" id="idecrypt">Descriptografar</button>
+          </form>
+        </aside>
+      </section>
+    </main>
+    <footer id="navigation-footer">
+      <div class="team">
+        <h3 class="title-footer">Equipe de Desenvolvimento</h3>
+        <p class="footer-itens">José Victor</p>
+        <p class="footer-itens">Marcio Rafael</p>
+        <p class="footer-itens">Carlos Eduardo</p>
+        <p class="footer-itens">Diego Lubek</p>
+        <p class="footer-itens">Nicolly</p>
+      </div>
+      <div class="techs">
+        <h4 class="title-footer">Tecnologias Utilizadas</h4>
+        <p class="footer-itens">HTML, CSS e JavaScript</p>
+        <p class="footer-itens">Python</p>
+        <p class="footer-itens">FastAPI, Cryptography</p>
+        <p class="footer-itens">Uvicorn</p>
+        <p class="footer-itens">Git e GitHub</p>
+      </div>
+
+      <script src="scripts/script.js"></script>
+    </footer>
+  </body>
+</html>
